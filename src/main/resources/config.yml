@@ -1,0 +1,38 @@
+messages:
+  size: "§7The world border is currently §6%amount% blocks §7wide"
+  join:
+    increase: "§7The world border increased §6%amount%§7 blocks since you last joined"
+    decrease: "§7The world border decreased §6%amount%§7 blocks since you last joined"
+    noDifference: "§7The world border did not change since you last joined"
+
+twitch:
+  clientId: null
+  clientSecret: null
+
+border:
+  increaseTime: 30
+  follow:
+    multiplier: 3.0
+    firework: false
+    fireworkAfter: 0
+  bit:
+    multiplier: 0.1
+    firework: true
+    fireworkAfter: 150
+  subscription:
+    multiplier: 50.0
+    firework: true
+    fireworkAfter: 5
+  giftSub:
+    multiplier: 50.0
+    firework: true
+    fireworkAfter: 5
+
+scoreboard:
+  enabled: true
+  name: '§x§4§5§3§D§F§ABorder'
+  values:
+    4: '§8'
+    3: '§7Border Size:'
+    2: ' §8» §6%size%'
+    1: '§4'

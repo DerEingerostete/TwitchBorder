@@ -1,0 +1,10 @@
+name: TwitchBorder
+author: DerEingerostete
+
+version: '${project.version}'
+api-version: 1.19
+main: de.dereingerostete.border.BorderPlugin
+load: POSTWORLD
+
+description: "A plugin to grow the border with Twitch events"
+website: "https://dereingerostete.dev/"
